@@ -15,6 +15,7 @@
         "format": "prettier -c .",
         "format:write": "prettier -w .",
         "lint": "circomspect packages/*/src -L ./node_modules/circomlib/circuits",
+        "lint:sarif": "circomspect packages/*/src -L ./node_modules/circomlib/circuits -s sarif || true && ts-node scripts/filter-sarif.ts sarif sarif-filtered",
         "remove:stable-version-field": "ts-node scripts/remove-stable-version-field.ts ${0} && yarn format:write",
         "postinstall": "husky && git config --local core.editor cat"
     },
@@ -32,12 +33,16 @@
     "devDependencies": {
         "@commitlint/cli": "^18.6.1",
         "@commitlint/config-conventional": "^18.6.2",
+        "@types/js-yaml": "^4.0.9",
+        "@types/minimatch": "^6.0.0",
         "@types/mocha": "^10.0.6",
         "@types/node": "^20",
         "changelogithub": "patch:changelogithub@npm%3A0.13.3#~/.yarn/patches/changelogithub-npm-0.13.3-1783949906.patch",
         "czg": "^1.9.1",
         "husky": "^9.0.11",
+        "js-yaml": "^4.1.1",
         "lint-staged": "^15.2.2",
+        "minimatch": "^10.1.1",
         "prettier": "^3.2.5",
         "ts-node": "^10.9.2",
         "typescript": "^5.3.3"
