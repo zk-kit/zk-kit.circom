@@ -1,0 +1,12 @@
+{
+    "lean-imt-plus": {
+        "file": "lean-imt-plus",
+        "template": "LeanIMTPlus",
+        "params": [10]
+    },
+    "lean-imt-plus-sha256": {
+        "file": "lean-imt-plus-sha256",
+        "template": "LeanIMTPlusSha256",
+        "params": [10]
+    }
+}
