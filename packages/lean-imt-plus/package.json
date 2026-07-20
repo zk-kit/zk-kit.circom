@@ -1,6 +1,6 @@
 {
     "name": "@zk-kit/lean-imt-plus.circom",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Circom circuits to verify membership and non-membership proofs for a LeanIMT+ indexed Merkle tree.",
     "license": "MIT",
     "files": [
