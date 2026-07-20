@@ -244,6 +244,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@datastructures-js/binary-search-tree@npm:5.4.0":
+  version: 5.4.0
+  resolution: "@datastructures-js/binary-search-tree@npm:5.4.0"
+  checksum: 10/2f32432aa3cc375ab7d094f6bd73fb90d85bf4d5351e09908094051d5d46c3767845d83474c733a4af71b2120b3b3fef5051b5ee3605bb22e59205f470149f54
+  languageName: node
+  linkType: hard
+
 "@iden3/bigarray@npm:0.0.2":
   version: 0.0.2
   resolution: "@iden3/bigarray@npm:0.0.2"
@@ -366,6 +373,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/chai@npm:^4.3.11":
+  version: 4.3.20
+  resolution: "@types/chai@npm:4.3.20"
+  checksum: 10/94fd87036fb63f62c79caf58ccaec88e23cc109e4d41607d83adc609acd6b24eabc345feb7850095a53f76f99c470888251da9bd1b90849c8b2b5a813296bb19
+  languageName: node
+  linkType: hard
+
 "@types/chai@npm:^4.3.16":
   version: 4.3.16
   resolution: "@types/chai@npm:4.3.16"
@@ -469,6 +483,29 @@ __metadata:
   dependencies:
     poseidon-lite: "npm:^0.2.0"
   checksum: 10/2fd138c2ae39047907113e4ccca8da37eec6eed4acba86fcaa8cbd464d31a265269780c37059182dfe04906337a2ad79038014dca3fca9f03b79390e323f5e04
+  languageName: node
+  linkType: hard
+
+"@zk-kit/lean-imt-plus.circom@workspace:packages/lean-imt-plus":
+  version: 0.0.0-use.local
+  resolution: "@zk-kit/lean-imt-plus.circom@workspace:packages/lean-imt-plus"
+  dependencies:
+    "@types/chai": "npm:^4.3.11"
+    "@zk-kit/lean-imt-plus": "npm:^0.1.1"
+    chai: "npm:^4.4.0"
+    circomkit: "npm:^0.1.0"
+    circomlib: "npm:^2.0.5"
+    mocha: "npm:^10.2.0"
+    poseidon-lite: "npm:^0.2.0"
+  languageName: unknown
+  linkType: soft
+
+"@zk-kit/lean-imt-plus@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@zk-kit/lean-imt-plus@npm:0.1.1"
+  dependencies:
+    "@datastructures-js/binary-search-tree": "npm:5.4.0"
+  checksum: 10/edb69507af0ca5bd11e3918fbeb5f3ca504dde8ae2803281fa5af95e7f76c85066f7ca33adf8a1ac07b7fcbb26c843abbab67c32d59ff017c78197d7617e545a
   languageName: node
   linkType: hard
 
@@ -990,6 +1027,21 @@ __metadata:
     pathval: "npm:^1.1.1"
     type-detect: "npm:^4.0.8"
   checksum: 10/c6d7aba913a67529c68dbec3673f94eb9c586c5474cc5142bd0b587c9c9ec9e5fbaa937e038ecaa6475aea31433752d5fabdd033b9248bde6ae53befcde774ae
+  languageName: node
+  linkType: hard
+
+"chai@npm:^4.4.0":
+  version: 4.5.0
+  resolution: "chai@npm:4.5.0"
+  dependencies:
+    assertion-error: "npm:^1.1.0"
+    check-error: "npm:^1.0.3"
+    deep-eql: "npm:^4.1.3"
+    get-func-name: "npm:^2.0.2"
+    loupe: "npm:^2.3.6"
+    pathval: "npm:^1.1.1"
+    type-detect: "npm:^4.1.0"
+  checksum: 10/cde341aee15b0a51559c7cfc20788dcfb4d586a498cfb93b937bb568fd45c777b73b1461274be6092b6bf868adb4e3a63f3fec13c89f7d8fb194f84c6fa42d5f
   languageName: node
   linkType: hard
 
@@ -5015,6 +5067,13 @@ __metadata:
   version: 4.0.8
   resolution: "type-detect@npm:4.0.8"
   checksum: 10/5179e3b8ebc51fce1b13efb75fdea4595484433f9683bbc2dca6d99789dba4e602ab7922d2656f2ce8383987467f7770131d4a7f06a26287db0615d2f4c4ce7d
+  languageName: node
+  linkType: hard
+
+"type-detect@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "type-detect@npm:4.1.0"
+  checksum: 10/e363bf0352427a79301f26a7795a27718624c49c576965076624eb5495d87515030b207217845f7018093adcbe169b2d119bb9b7f1a31a92bfbb1ab9639ca8dd
   languageName: node
   linkType: hard
 

@@ -1,0 +1,34 @@
+{
+    "name": "@zk-kit/lean-imt-plus.circom",
+    "version": "0.0.0",
+    "description": "Circom circuits to verify membership and non-membership proofs for a LeanIMT+ indexed Merkle tree.",
+    "license": "MIT",
+    "files": [
+        "src/**/*.circom",
+        "!src/main",
+        "!src/test",
+        "LICENSE",
+        "README.md"
+    ],
+    "repository": "git@github.com:privacy-scaling-explorations/zk-kit.circom.git",
+    "homepage": "https://github.com/privacy-scaling-explorations/zk-kit.circom/tree/main/packages/lean-imt-plus",
+    "scripts": {
+        "compile": "circomkit compile lean-imt-plus && circomkit compile lean-imt-plus-sha256",
+        "setup": "circomkit setup lean-imt-plus && circomkit setup lean-imt-plus-sha256",
+        "test": "mocha"
+    },
+    "dependencies": {
+        "circomlib": "^2.0.5"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.3.11",
+        "@zk-kit/lean-imt-plus": "^0.1.1",
+        "chai": "^4.4.0",
+        "circomkit": "^0.1.0",
+        "mocha": "^10.2.0",
+        "poseidon-lite": "^0.2.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
