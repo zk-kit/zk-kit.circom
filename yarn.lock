@@ -426,6 +426,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@zk-kit/binary-merkle-root-sha256.circom@workspace:packages/binary-merkle-root-sha256":
+  version: 0.0.0-use.local
+  resolution: "@zk-kit/binary-merkle-root-sha256.circom@workspace:packages/binary-merkle-root-sha256"
+  dependencies:
+    "@zk-kit/lean-imt": "npm:^2.0.1"
+    circomkit: "npm:^0.1.0"
+    circomlib: "npm:^2.0.5"
+    mocha: "npm:^10.2.0"
+  languageName: unknown
+  linkType: soft
+
 "@zk-kit/binary-merkle-root.circom@workspace:packages/binary-merkle-root":
   version: 0.0.0-use.local
   resolution: "@zk-kit/binary-merkle-root.circom@workspace:packages/binary-merkle-root"

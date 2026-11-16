@@ -6,6 +6,9 @@
 # only the following users and not the default owners defined above will be
 # requested for a review.
 /packages/binary-merkle-root/ @vplasencia
+/packages/binary-merkle-root-sha256/ @vplasencia
+/packages/lean-imt-plus/ @vplasencia
+/packages/lean-imt-plus-sha256/ @vplasencia
 /packages/ecdh/ @ctrlc03
 /packages/poseidon-cipher/ @ctrlc03
 /packages/poseidon-proof/ @vplasencia

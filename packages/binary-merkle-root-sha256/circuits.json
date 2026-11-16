@@ -1,0 +1,7 @@
+{
+    "binary-merkle-root-sha256": {
+        "file": "binary-merkle-root-sha256",
+        "template": "BinaryMerkleRootSha256",
+        "params": [4]
+    }
+}
