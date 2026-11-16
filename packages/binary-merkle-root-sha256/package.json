@@ -1,6 +1,6 @@
 {
     "name": "@zk-kit/binary-merkle-root-sha256.circom",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "A circuit to calculate the root of a binary Merkle tree using full SHA-256 and a provided proof-of-membership.",
     "license": "MIT",
     "files": [
