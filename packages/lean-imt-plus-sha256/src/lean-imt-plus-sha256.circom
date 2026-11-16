@@ -94,9 +94,11 @@ template LeanIMTPlusSha256(MAX_DEPTH) {
 
     proofType * (proofType - 1) === 0;
 
-    // Range checks; the same bits feed the hash.
-    component valueBits = LeanIMTPlusSha256LimbsToBits();
-    valueBits.in <== value;
+    // Range checks. value is not hashed, so only its limbs are range-checked;
+    // the leafValue/leafNextValue bits also feed the leaf hash.
+    for (var k = 0; k < 2; k++) {
+        _ <== Num2Bits(128)(value[k]);
+    }
     component leafValueBits = LeanIMTPlusSha256LimbsToBits();
     leafValueBits.in <== leafValue;
     component leafNextBits = LeanIMTPlusSha256LimbsToBits();
