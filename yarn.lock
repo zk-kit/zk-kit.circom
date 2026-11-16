@@ -486,6 +486,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@zk-kit/lean-imt-plus-sha256.circom@workspace:packages/lean-imt-plus-sha256":
+  version: 0.0.0-use.local
+  resolution: "@zk-kit/lean-imt-plus-sha256.circom@workspace:packages/lean-imt-plus-sha256"
+  dependencies:
+    "@types/chai": "npm:^4.3.11"
+    "@zk-kit/lean-imt-plus": "npm:^0.1.1"
+    chai: "npm:^4.4.0"
+    circomkit: "npm:^0.1.0"
+    circomlib: "npm:^2.0.5"
+    mocha: "npm:^10.2.0"
+  languageName: unknown
+  linkType: soft
+
 "@zk-kit/lean-imt-plus.circom@workspace:packages/lean-imt-plus":
   version: 0.0.0-use.local
   resolution: "@zk-kit/lean-imt-plus.circom@workspace:packages/lean-imt-plus"
