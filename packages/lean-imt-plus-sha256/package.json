@@ -10,8 +10,8 @@
         "LICENSE",
         "README.md"
     ],
-    "repository": "git@github.com:privacy-scaling-explorations/zk-kit.circom.git",
-    "homepage": "https://github.com/privacy-scaling-explorations/zk-kit.circom/tree/main/packages/lean-imt-plus-sha256",
+    "repository": "git@github.com:zk-kit/zk-kit.circom.git",
+    "homepage": "https://github.com/zk-kit/zk-kit.circom/tree/main/packages/lean-imt-plus-sha256",
     "scripts": {
         "compile": "circomkit compile lean-imt-plus-sha256",
         "setup": "circomkit setup lean-imt-plus-sha256",
