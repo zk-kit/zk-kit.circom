@@ -1,6 +1,6 @@
 {
     "name": "@zk-kit/lean-imt-plus-sha256.circom",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Circom circuits to verify membership and non-membership proofs for a LeanIMT+ indexed Merkle tree using full SHA-256.",
     "license": "MIT",
     "files": [
