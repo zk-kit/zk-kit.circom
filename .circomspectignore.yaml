@@ -1,0 +1,11 @@
+# This file allows suppressing specific circomspect warnings in CI
+#
+# Format:
+#   ignore:
+#     - rule: <rule-id-or-name>   # e.g., "CS0010" or "non-strict-binary-conversion"
+#       files:
+#         - <file-path>           # relative to repo root
+#         - <file-path>:<line>    # with specific line number
+#         - <glob-pattern>        # e.g., "**/test/**"
+#
+ignore: []

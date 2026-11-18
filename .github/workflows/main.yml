@@ -43,10 +43,13 @@ jobs:
               # circomspect does not exit with 0 if warnings are detected, have it return true so we can upload SARIF
               run: circomspect packages/*/src -L ./node_modules/circomlib/circuits -s sarif || true
 
+            - name: Filter SARIF results
+              run: npx ts-node scripts/filter-sarif.ts sarif sarif-filtered
+
             - name: Upload SARIF file
               uses: github/codeql-action/upload-sarif@v4
               with:
-                  sarif_file: sarif
+                  sarif_file: sarif-filtered
 
     test:
         runs-on: ubuntu-latest
